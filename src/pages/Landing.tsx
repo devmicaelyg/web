@@ -16,7 +16,7 @@ const Landing = () => {
                 </main>
 
                 <div className="location">
-                    <strong>Santo Teresa</strong>
+                    <strong>Santa Teresa</strong>
                     <span> Espirito Santo</span>
                 </div>
 
