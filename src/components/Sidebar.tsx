@@ -3,12 +3,13 @@ import React from 'react';
 import { FiArrowLeft, FiPlus } from "react-icons/fi";
 import mapMarkerImg from '../images/Map.svg';
 import { useHistory } from "react-router-dom";
+
 import '../styles/components/sidebar.css';
 
 const Sidebar = () => {
   const { goBack } = useHistory();
   return (
-    <aside>
+    <aside className="app-sidebar">
     <img src={mapMarkerImg} alt="Happy" />
 
     <footer>
